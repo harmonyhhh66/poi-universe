@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#080D0A" />
+  <meta name="description" content="ROOT ACCESS — a tiny Person of Interest-inspired terminal toy." />
+  <title>ROOT ACCESS // POI UNIVERSE</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <main class="shell">
+    <header class="masthead">
+      <div class="brand"><span class="brand-symbol" aria-hidden="true">⌗</span><div><div class="eyebrow">POI UNIVERSE / MISSION 001</div><div class="brand-name">ROOT ACCESS<span class="cursor-ornament">_</span></div></div></div>
+      <div class="header-right"><span class="live-dot" aria-hidden="true"></span><span>LOCAL SESSION</span><span class="header-separator">/</span><span id="header-state">ONLINE</span></div>
+    </header>
+
+    <section class="hero" aria-label="System overview">
+      <div class="hero-copy"><div class="eyebrow">THE MACHINE / PUBLIC TERMINAL</div><h1>YOU ARE BEING<br><em>OBSERVED.</em></h1><p>Not really. This is a fictional terminal. No surveillance. No network requests. Just a few relevant little things.</p></div>
+      <div class="visual" aria-hidden="true"><svg viewBox="0 0 270 190" role="img"><defs><linearGradient id="signal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#9FE8B0"/><stop offset="1" stop-color="#35563e"/></linearGradient></defs><g fill="none" stroke="#2c4c36" stroke-width=".6"><path d="M0 38H270M0 76H270M0 114H270M0 152H270"/><path d="M45 0V190M90 0V190M135 0V190M180 0V190M225 0V190"/></g><circle cx="135" cy="95" r="67" stroke="#2a5038" fill="none"/><circle cx="135" cy="95" r="51" stroke="#477b54" stroke-dasharray="2 6" fill="none"/><path d="M99 56H77V78M171 56H193V78M193 112V134H171M99 134H77V112" stroke="url(#signal)" stroke-width="2" fill="none"/><path d="M135 30V160M70 95H200" stroke="#426a4c" stroke-width=".8"/><circle cx="135" cy="95" r="5" fill="#9FE8B0"/><circle cx="135" cy="95" r="12" fill="none" stroke="#9FE8B0" stroke-opacity=".4"/></svg><div class="visual-label">ASSET DETECTED / 001</div></div>
+    </section>
+
+    <section class="terminal" aria-label="Interactive terminal">
+      <div class="terminal-bar"><div class="window-dots" aria-hidden="true"><i></i><i></i><i></i></div><div>ANALOG INTERFACE <span class="dim">// SHELL v0.1.0</span></div><button id="copy-log" type="button" title="Copy terminal transcript">COPY LOG</button></div>
+      <div id="terminal-log" class="terminal-log" role="log" aria-live="polite" aria-relevant="additions text" aria-label="Terminal output"></div>
+      <form id="command-form" class="command-bar" autocomplete="off"><label for="command-input" class="prompt">admin@machine<span>:</span>~$</label><input id="command-input" type="text" aria-label="Terminal command" autocapitalize="off" autocomplete="off" autocorrect="off" spellcheck="false" maxlength="180" placeholder="Type help to begin" /><button type="submit" aria-label="Run command">↵</button></form>
+    </section>
+    <nav class="quick-commands" aria-label="Quick commands"><span>TRY:</span><button type="button" data-cmd="help">help</button><button type="button" data-cmd="whoami">whoami</button><button type="button" data-cmd="status">status</button><button type="button" data-cmd="mode root">mode root</button><button type="button" data-cmd="mode shaw">mode shaw</button></nav>
+    <footer><span>EVERYONE IS RELEVANT TO SOMEONE.</span><span>AN UNOFFICIAL FAN-MADE EXPERIMENT · <a href="../../README.md">THE ARCHIVE</a></span></footer>
+  </main>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
