@@ -8,6 +8,13 @@
 
 **原则：先喜欢，再动手；先做小，再做大。** 这是非官方粉丝创作计划，与剧集版权方无关联。项目中使用的原创界面文案不是剧集原台词；如需使用剧照、Logo、对白或演员声音，请先确认相应权利和许可。
 
+## LIVE TERMINALS
+
+- **THE FRONT DOOR** — [POI Universe homepage](https://harmonyhhh66.github.io/poi-universe/) (MISSION 002).
+- **ROOT ACCESS** — [interactive terminal](https://harmonyhhh66.github.io/poi-universe/projects/root-access/) (MISSION 001).
+- **GitHub Profile** — See [`github-profile/SETUP.md`](github-profile/SETUP.md) for the separate profile repository setup.
+- **Latest handoff** — [`MISSION-002.md`](MISSION-002.md).
+
 ## START HERE
 
 - **找点子**：打开 [`ideas/INDEX.md`](ideas/INDEX.md)，这里有首批 8 张已整理的 Idea Cards。
@@ -42,9 +49,10 @@
 
 ## MISSION CONTROL
 
-- **MISSION 000 — INITIALIZE THE ARCHIVE**：本仓库初始结构、卡片及规范（本次交付）。
-- **MISSION 001 — ROOT ACCESS**：候选首个独立微作品——一个含五个预定义命令和隐藏 `4A` 彩蛋的网页终端。尚未开始；可按兴趣另开仓库。
-- **长期目标**：让 GitHub、个人网站与桌面工具共享风格，但不强迫代码和发布周期绑定。
+- **MISSION 000 — INITIALIZE THE ARCHIVE:** initial structure, Idea Cards and design tokens — complete.
+- **MISSION 001 — ROOT ACCESS:** playable terminal with five documented commands and hidden `connect 4a` — complete.
+- **MISSION 002 — THE FRONT DOOR:** public homepage, GitHub Profile README template, and `WATCHED.` headline — ready for deployment.
+- **Next:** refine the public identity, then choose a small standalone project.
 
 ## QUICK START
 

@@ -4,7 +4,7 @@
 
 | 项目 | 关联 Idea | 状态 | 链接 | 下一个明确动作 |
 |---|---|---|---|---|
-| ROOT ACCESS（候选 MISSION 001） | 未正式编号 | NOT STARTED | — | 制作包含 5 个命令、隐藏 4A 彩蛋的静态网页 |
+| [ROOT ACCESS](root-access/)（MISSION 001） | POI-008（设计规范） | RELEASED v0.1 | [打开网站](https://harmonyhhh66.github.io/poi-universe/projects/root-access/) | 继续完善体验与可访问性 |
 
 ## 发布记录模板
 
