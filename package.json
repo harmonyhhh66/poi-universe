@@ -1,0 +1,12 @@
+{
+  "name": "poi-universe",
+  "version": "0.3.1",
+  "private": true,
+  "description": "MISSION 003 / static POI Universe test and token tooling",
+  "scripts": {
+    "tokens:build": "node scripts/generate-tokens.mjs",
+    "tokens:check": "node scripts/generate-tokens.mjs --check",
+    "test": "node --test tests/*.test.mjs",
+    "check": "npm run tokens:check && npm test"
+  }
+}

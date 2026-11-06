@@ -12,10 +12,10 @@ An unofficial, independent creative technology playground inspired by *Person of
 
 | Experience | What it is | Status |
 |---|---|---|
-| [POI Universe — The Front Door](https://harmonyhhh66.github.io/poi-universe/) | Static project homepage | SOURCE READY · MISSION 002 |
+| [POI Universe — The Front Door](https://harmonyhhh66.github.io/poi-universe/) | Static project homepage | DEPLOYED · MISSION 002 |
 | [ROOT ACCESS](https://harmonyhhh66.github.io/poi-universe/projects/root-access/) | Fictional five-command terminal with a hidden 4A channel | RELEASED v0.1 · MISSION 001 |
 
-*Site availability depends on the code actually deployed to GitHub Pages; the files in this package were checked locally, not against the live repository.*
+*The homepage and ROOT ACCESS were verified by user screenshots after MISSION 002.7. MISSION 003 updates require a new deployment check.*
 
 ## Browse the archive
 
@@ -27,6 +27,7 @@ An unofficial, independent creative technology playground inspired by *Person of
 - [Audit report](AUDIT.md) · What was checked, fixed and left unverified
 - [Deployment and recovery guide](DEPLOY.md) · Safe update of the existing repository
 - [Roadmap](ROADMAP.md) · Optional next missions, no deadlines
+- [MISSION 003 quality guide](MISSION-003.md) · Tests, token workflow and manual browser checks
 
 ## Idea catalog
 
@@ -59,7 +60,7 @@ poi-universe/
 
 ## Run locally
 
-Open `index.html` and `projects/root-access/index.html` in a browser. No package installation, AI API, sign-in, build step or database is required. The site is intentionally static.
+Open `index.html` and `projects/root-access/index.html` in a browser. The site itself needs no dependencies, AI API, sign-in or database. For developer checks, install Node.js 22+ and run `npm run check`. To change theme tokens run `npm run tokens:build`.
 
 ## Principles
 

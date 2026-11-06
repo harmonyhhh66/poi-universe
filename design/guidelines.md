@@ -122,3 +122,9 @@ Markdown 为主，静态 SVG 展示少量装饰。不要依赖 README 中的自�
 ## Project boundary
 
 This design system applies to `poi-universe` experiences, **not** the maintainer’s general academic GitHub Profile. Archived visual experiments appear under `design/archived-profile-art/`.
+
+## MISSION 003 / Shared CSS tokens
+
+`design/tokens.json` is the single source of truth for shared palette, spacing, radius and motion constants. `design/tokens.css` is auto-generated with `npm run tokens:build` and imported by both `site.css` and `projects/root-access/styles.css`.
+
+Do not directly edit the generated file. Per-page accents and layout-specific color treatments remain in the page stylesheets. We did **not** change layouts or the existing visual identity during this mission. Use `npm run check` before publishing.

@@ -6,11 +6,12 @@
 |---|---|---|---|
 | 000 / Library | Idea cards, templates, tokens | COMPLETE | Eight documented idea cards |
 | 001 / Root Access | A working local fictional terminal | RELEASED v0.1 | Five commands + hidden `connect 4a` |
-| 002 / Front Door | GitHub Pages homepage | SOURCE READY / live status unverified | Homepage routes to terminal |
+| 002 / Front Door | GitHub Pages homepage | DEPLOYED / user screenshot verified | Homepage routes to terminal |
 | 002.5 / Visual experiments | POI artwork | ARCHIVED | Three SVG assets remain in `design/` |
 | 002.6 / Identity separation | Neutral personal GitHub Profile | EXTERNAL / user-confirmed | Personal Profile is no longer POI-only |
-| AUDIT / Archive hygiene | Unified snapshot and deployment guide | PREPARED / PUSH PENDING | GitHub tree matches this snapshot and live smoke checks pass |
-| 003 / First functional app | **Not selected yet** | BACKLOG | Select one idea, write tiny MVP, implement and test |
+| AUDIT / Archive hygiene | Unified snapshot and deployment guide | COMPLETE / user screenshot verified | GitHub tree matches this snapshot and live smoke checks pass |
+| 003 / Contingency Protocol | Automated checks, shared tokens, CI | LOCAL VERIFIED / PUSH PENDING | CI green + manual smoke checks |
+| 004 / First functional experiment | **Not selected yet** | BACKLOG | Choose a small MVP and implement it |
 
 ## Suggested next sequence
 

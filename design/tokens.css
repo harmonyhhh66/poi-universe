@@ -1,0 +1,26 @@
+/* AUTO-GENERATED from design/tokens.json. Run npm run tokens:build. */
+:root {
+  --void: #080D0A;
+  --surface: #101A14;
+  --border: #284333;
+  --muted: #759783;
+  --text: #C7D9CB;
+  --signal: #9FE8B0;
+  --root: #C7A4E9;
+  --shaw: #E9BD9E;
+  --threat: #D66C70;
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 12px;
+  --space-lg: 16px;
+  --space-xl: 24px;
+  --space-xxl: 32px;
+  --radius-sm: 4px;
+  --radius-card: 8px;
+  --radius-panel: 12px;
+  --motion-detect: 120ms;
+  --motion-identify: 320ms;
+  --motion-connect: 480ms;
+  --motion-redact: 160ms;
+  --motion-takeover: 800ms;
+}
