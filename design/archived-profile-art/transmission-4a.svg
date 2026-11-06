@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="145" viewBox="0 0 1200 145" role="img">
+<rect width="1200" height="145" fill="#080D0A"/>
+<defs><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#1B3222" stroke-width="0.6" opacity="0.6"/></pattern></defs>
+<rect width="1200" height="145" fill="url(#grid)" opacity=".7"/>
+<rect x="14" y="14" width="1172" height="117" rx="6" fill="none" stroke="#284333" stroke-width="2"/>
+<text x="48" y="46" font-family="DejaVu Sans Mono, Consolas, monospace" font-weight="700" font-size="17" fill="#759783" text-anchor="start" >ENCRYPTED TRANSMISSION  /  4A</text><path d="M50 75 L1150 75" fill="none" stroke="#38563E" stroke-width="1" stroke-dasharray="5 8"/><circle cx="205" cy="75" r="7" fill="#9FE8B0"/><circle cx="995" cy="75" r="7" fill="#E9BD9E"/><text x="600" y="113" font-family="DejaVu Sans Mono, Consolas, monospace" font-weight="700" font-size="20" fill="#C7D9CB" text-anchor="middle" >SOME CONNECTIONS ARE NEVER TRULY LOST.</text><text x="1150" y="46" font-family="DejaVu Sans Mono, Consolas, monospace" font-weight="400" font-size="14" fill="#9FE8B0" text-anchor="end" >SIGNAL // STANDBY</text></svg>

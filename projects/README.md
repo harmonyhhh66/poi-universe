@@ -1,23 +1,16 @@
 # PROJECTS / ACTIVE OPERATIONS
 
-这里仅记录**已经启动或已经发布**的实际作品。灵感请去 [`../ideas/INDEX.md`](../ideas/INDEX.md)。
+Here we record **actual built or deployed experiences**. Unbuilt concepts belong to [`ideas/INDEX.md`](../ideas/INDEX.md).
 
-| 项目 | 关联 Idea | 状态 | 链接 | 下一个明确动作 |
+| Product | Mission | Status | Live demo | Source |
 |---|---|---|---|---|
-| [ROOT ACCESS](root-access/)（MISSION 001） | POI-008（设计规范） | RELEASED v0.1 | [打开网站](https://harmonyhhh66.github.io/poi-universe/projects/root-access/) | 继续完善体验与可访问性 |
+| POI Universe — The Front Door | 002 | SOURCE READY · live unchecked | [Open homepage](https://harmonyhhh66.github.io/poi-universe/) | [`index.html`](../index.html) |
+| ROOT ACCESS | 001 | RELEASED v0.1 | [Open terminal](https://harmonyhhh66.github.io/poi-universe/projects/root-access/) | [`root-access/`](root-access/) |
 
-## 发布记录模板
+The **MISSION 002.5 artwork** is not a separate app; its SVG assets live at [`design/archived-profile-art/`](../design/archived-profile-art/). The author's independent personal GitHub Profile should not be overwritten with these files.
 
-```md
-### PROJECT NAME
+ROOT ACCESS was previously reported working by the user. Homepage availability has not been independently confirmed. This audit **did not query GitHub live** to confirm either URL currently works.
 
-- Idea: POI-XXX
-- Status: BUILDING / RELEASED / PAUSED
-- Repository: https://github.com/...
-- Demo: https://...
-- What it does: ...
-- Current limitations: ...
-- Next smallest improvement: ...
-```
+## When adding a real project
 
-原则：每个独立可运行产品可另建仓库；这里留下入口与小结，不强求单体仓库。
+Record its user-facing deliverable, source, demo, maturity, next small improvement and any relevant Idea Card. A fictional system message is not a real AI capability.

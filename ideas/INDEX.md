@@ -13,7 +13,7 @@
 
 ## Unfiled sparks / 暂不编号
 
-- ROOT ACCESS：五命令网页终端，候选 MISSION 001。
+- ROOT ACCESS：已经作为 MISSION 001 发布的微型作品；详见 [`projects/README.md`](../projects/README.md)，不是未开发的候选。
 - Machine Lens：浏览器阅读辅助插件。
 - Relevant / Irrelevant：调查式文字游戏。
 - The Numbers Display：e-paper 每日任务硬件。

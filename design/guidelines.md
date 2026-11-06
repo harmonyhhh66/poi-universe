@@ -117,3 +117,8 @@ Markdown 为主，静态 SVG 展示少量装饰。不要依赖 README 中的自�
 - [ ] 色盲用户是否仍可凭文字区分状态？
 - [ ] 交互是否遵循减少动画偏好？
 - [ ] 用户是否拥有权限确认和退出方式？
+
+
+## Project boundary
+
+This design system applies to `poi-universe` experiences, **not** the maintainer’s general academic GitHub Profile. Archived visual experiments appear under `design/archived-profile-art/`.
